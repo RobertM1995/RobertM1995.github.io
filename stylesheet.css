@@ -22,7 +22,7 @@
 	height: 25%;
 }
 
-.aside -1 {
+.aside {
 	width: 33%;
 	background: blue;
 	text-align: left;
@@ -38,14 +38,13 @@
 .aside{flex: 100;}
 }
 
-@media all and (min-width:800px){
-.main{flex:30px; }
-.aside -1{ order:1; }
+@media all and (min-width:800px) {
+.main {flex:30px; }
+.aside { order:1; }
 .main {order:2; }
-.footer{ order:3; }
+.footer { order:3; }
 }
 
-body{
-
-padding:2em;
+body {
+	padding:2em;
 }

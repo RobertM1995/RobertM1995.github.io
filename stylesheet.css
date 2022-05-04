@@ -1,9 +1,14 @@
 body {
-	background-color: deepskyblue;
-	color: white;
-}
-
-head {
 	background-color: white;
 	color: black;
+}
+
+header {
+	background-color: deepskyblue;
+	color: black;
+}
+
+footer {
+	background-color: deepskyblue;
+	color: white;
 }

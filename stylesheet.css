@@ -7,13 +7,13 @@
 }
 
 .left {
-	width: 25%;
-	backgroud: blue;
+	width: 33%;
+	background-color: blue;
 	text-align: left;
 }
 
 .right {
-	width: 75%;
+	width: 67%;
 	text-align: center;
 
 .footer {

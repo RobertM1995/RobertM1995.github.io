@@ -2,12 +2,12 @@
 	background: blue;
 }
 
-.aside -1 {
+.leftSide {
 	background: blue;
 	text-align: left
  }
 
-.aside -2 {
+.central {
 	background: white;
 	text-align: center
 

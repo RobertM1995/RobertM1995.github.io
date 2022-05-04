@@ -28,7 +28,7 @@
 	text-align: left;
 }
 
-.aside -2 {
+.main {
 	width: 67%;
 	text-align: center;
 	background: white;
@@ -39,8 +39,9 @@
 }
 
 @media all and (min-width:800px){
+.main{flex:30px; }
 .aside -1{ order:1; }
-.aside -2 {order:2; }
+.main {order:2; }
 .footer{ order:3; }
 }
 
@@ -48,4 +49,3 @@ body{
 
 padding:2em;
 }
-

@@ -1,23 +1,9 @@
-.row {
-	display: flex;
-}
-
-.column {
-	float: left;
-}
-
-.left {
-	width: 34%;
+body {
 	background-color: deepskyblue;
 	color: white;
 }
 
-.right {
-	width: 64%;
+head {
 	background-color: white;
 	color: black;
-}
-
-@media screen and (max-width: 600px) {
-	width: 100%;
 }

@@ -1,5 +1,13 @@
-body {
-	background-color: blue;
+.wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	font-family: ariel;
+}
+
+.wrapper>* {
+	padding: 10px;
+	flex: 1 100%;
 }
 
 .header {

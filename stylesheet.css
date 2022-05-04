@@ -2,14 +2,20 @@
 	background: blue;
 }
 
-.leftSide {
+.column {
 	background: blue;
-	text-align: left
+	text-align: left:
  }
 
-.central {
-	background: white;
-	text-align: center
+.left {
+	width: 25%;
+	backgroud: blue;
+	text-align: left;
+}
+
+.right {
+	width: 75%;
+	text-align: center;
 
 .footer {
 	background: blue;

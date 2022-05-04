@@ -11,11 +11,11 @@
 }
 
 .header {
-	background: tomato;
+	background-colour: tomato;
 }
 
 .footer {
-	background: lightgreen;
+	background-color: lightgreen;
  }
 
 .main {
@@ -24,11 +24,11 @@
 }
 
 .aside -1 {
-	background: gold;
+	background-color: gold;
  }
 
 .aside -2 {
-	background: hotpink;
+	background-color: hotpink;
  }
 
 @media all and (min-width:600px) {

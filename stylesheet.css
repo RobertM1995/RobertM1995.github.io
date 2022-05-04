@@ -3,9 +3,8 @@
 }
 
 .column {
-	background: blue;
-	text-align: left:
- }
+	float: left;
+}
 
 .left {
 	width: 25%;

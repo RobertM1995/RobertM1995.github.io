@@ -21,14 +21,19 @@
 .main {
 	text-align: left;
 	background: deepskyblue;
+	width: 66%;
+	
 }
 
 .aside -1 {
 	background-color: gold;
+	width: 34%;
+	text-align: left;
  }
 
 .aside -2 {
 	background-color: hotpink;
+	width: 0%
  }
 
 @media all and (min-width:600px) {

@@ -10,6 +10,7 @@ body {
 
 .column {
 	float: left;
+	float: right;
 }
 
 .left {

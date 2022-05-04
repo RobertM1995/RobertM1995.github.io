@@ -14,10 +14,21 @@
 		</nav>
 		
 		<h1 style="text-align: center"> Welcome to Robert's Assessment Quiz for Web Technologies. </h1>
+		
+		<script style= "text-align: center">
+				var userName = prompt("Please enter your name", "");
+				if(userName!= null) {
+					document.getElementById("Welcome").innerHTML = 
+					"Hello " + CustomerName + "! Welcome to Robert's Assessment Quiz";
+				}
+				
+			</script>
 	</head>
 	
 	
 	<body style="background-color: black; color: white">
+		
+		<div id="Welcome"> Home Page </div>
 		
 		
 		
@@ -35,12 +46,7 @@
 			<h3 style="text-align: left"> <a href ="https://robertm1995.github.io/music.html" target =" _blank "> Music Quiz </ a> </h3>
 			<h3 style="text-align: left"> <a href ="https://robertm1995.github.io/picture.html" target =" _blank "> Picture Quiz </ a> </h3> 
 			
-			<script style= "text-align: center">
-				if(userName!= null) {
-					document.getElementById("Welcome").innerHTML = "Hello " + CustomerName + "! Welcome to Robert's Assessment Quiz";
-				}
-				
-			</script>
+			
 		
 		</section>
 				

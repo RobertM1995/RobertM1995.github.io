@@ -1,13 +1,13 @@
 .header {
-	background: tomato;
+	background: blue;
 }
 
 .aside -1 {
-	background: gold;
+	background: blue;
  }
 
 .aside -2 {
-	background: hotpink;
+	background: blue;
  }
 
 .footer {

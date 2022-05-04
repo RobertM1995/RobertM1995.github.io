@@ -8,11 +8,6 @@ body {
 	height: 25%;
 }
 
-.column {
-	float: left;
-	float: right;
-}
-
 .left {
 	width: 33%;
 	background-color: blue;

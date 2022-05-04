@@ -2,9 +2,14 @@
 	background: blue;
 }
 
-.leftSide {
+.aside -1 {
 	background: blue;
+	text-align: left
  }
+
+.aside -2 {
+	background: white;
+	text-align: center
 
 .footer {
 	background: blue;

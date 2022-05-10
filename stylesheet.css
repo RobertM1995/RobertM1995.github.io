@@ -25,7 +25,7 @@
     color: white;
 }
 
-.aside -1 {
+.aside {
     text-align: left;
     background-color: blue;
     color: white;
@@ -44,16 +44,28 @@
 }
 
 @media all and (min-width:600px) {
-.aside{flex: 100;}
+.aside {
+	flex: 100;
 }
 
-@media all and (min-width:800px){
-.main{flex:30px; }
-.aside -1{ order:1; }
-.main {order:2; }
-.footer{ order:3; }
 }
 
-body{
-padding:2em;
+@media all and (min-width:800px) {
+.main {
+	flex:30px; 
+}
+.aside { 
+	order:1; 
+}
+.main {
+	order:2; 
+}
+.footer { 
+	order:3; 
+}
+
+}
+
+body {
+	padding:2em;
 }

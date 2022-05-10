@@ -1,77 +1,12 @@
-.wrapper {
-	display: flex;
-	flex-flow: row wrap;
-	font-weight: bold;
-	text-align: center;
-}
-
-.wrapper>* {
-	padding: 10px;
-	flex: 1 100%;
-}
-
-.nav-left {
-	float: left;
-	color: white;
-}
-
-.nav-right {
-	float: right;
-	color: white;
-}
-
-.header {
-	background-color: blue;
-	color: white;
-	width: 100%;
-}
-
-.aside {
+.column {
 	float: left;
 	width: 34%;
-	text-align: left;
 	background-color: blue;
 	color: white;
 }
 
-.main {
-	text-align: center;
-	background-color: white;
-	color: blue;
-	width: 64%;
-}
-
-.footer {
-	text-align: center;
-	background-color: blue;
-	color: white;
-	bottom: 0;
-	width: 100%;
-}
-
-@media all and (min-width:600px) {
-.aside {
-	flex: 100;
-}
-
-}
-
-@media all and (min-width:800px) {
-.main {
-	flex:30px; 
-}
-.aside { 
-	order:1; 
-}
-.main {
-	order:2; 
-}
-.footer { 
-	order:3; 
-}
-
-}
-
-body {
-	padding:2em;
+.row:after {
+	content: "";
+	display: table;
+	clear; both;
 }

@@ -1,12 +1,13 @@
 .column {
 	float: left;
+}
+
+.left {
 	width: 34%;
 	background-color: blue;
 	color: white;
 }
 
-.row:after {
-	content: "";
-	display: table;
-	clear; both;
+.right {
+	width: 66%;
 }

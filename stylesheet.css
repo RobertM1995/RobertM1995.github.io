@@ -5,3 +5,20 @@
 .nav-right {
     float: right;
 }
+
+.header {
+    background-color: blue;
+    color: white;
+}
+
+.aside -1 {
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+
+.aside -2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+}

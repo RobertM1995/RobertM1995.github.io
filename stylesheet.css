@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
 	display: flex;
 	flex-flow: row wrap;
 	font-weight: bold;
@@ -6,30 +6,30 @@
 }
 
 .wrapper>* {
-	padding:10px ;
-	flex:1 100%;
+	padding: 10px;
+	flex: 1 100%;
 }
 
 .nav-left {
-    float: left;
-    color: white;
+	float: left;
+	color: white;
 }
 
 .nav-right {
-    float: right;
-    color: white;
+	float: right;
+	color: white;
 }
 
 .header {
-    background-color: blue;
-    color: white;
+	background-color: blue;
+	color: white;
 }
 
 .aside {
-    	float: left;
+	float: left;
 	text-align: left;
-    	background-color: blue;
-    	color: white;
+	background-color: blue;
+	color: white;
 }
 
 .main {
@@ -40,9 +40,9 @@
 }
 
 .footer {
-    text-align: center;
-    background-color: blue;
-    color: white;
+	text-align: center;
+	background-color: blue;
+	color: white;
 }
 
 @media all and (min-width:600px) {

@@ -26,15 +26,17 @@
 }
 
 .aside {
-    text-align: left;
-    background-color: blue;
-    color: white;
+    	float: left;
+	text-align: left;
+    	background-color: blue;
+    	color: white;
 }
 
 .main {
-    text-align: center;
-    background-color: white;
-    color: blue;
+	float: right;
+	text-align: center;
+	background-color: white;
+	color: blue;
 }
 
 .footer {

@@ -1,9 +1,11 @@
 .nav-left {
-    floatr: left;
+    float: left;
+    color: white;
 }
 
 .nav-right {
     float: right;
+    color: white;
 }
 
 .header {
@@ -17,8 +19,8 @@
     color: white;
 }
 
-.aside -2 {
+.main {
     text-align: center;
     background-color: white;
-    color: black;
+    color: blue;
 }

@@ -1,34 +1,50 @@
-.nav-left {
-	float: left;
+html, body {
+	height: 100%
+	margin: 0;
 }
 
-.nav-right {
-	float: right;
+.header {
+	float: left;
+	top: 0;
+	width: 100%;
+	background-color: deepskyblue;
+	color: white;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .column {
-	float: left;
-	padding: 10px;
+  float: left;
+  padding: 10px;
+  height: 100%;
 }
 
 .left {
-	width: 25%;
-	background-color: blue;
-	color: white;
+  width: 10%;
+  height: 100%;
+  background-color: deepskyblue;
+  color: white;
 }
 
 .right {
-	width: 75%;
+  width: 90%;
+  text-align: center;
+  background-color: white;
+  color: black;
 }
 
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .footer {
+	bottom: 0;
 	width: 100%;
-	background-color: blue;
+	background-color: deepskyblue;
 	color: white;
+	position: fixed;
 }

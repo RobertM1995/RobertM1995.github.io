@@ -22,13 +22,13 @@ html, body {
 }
 
 .left {
-  width: 10%;
+  width: 25%;
   background-color: deepskyblue;
   color: white;
 }
 
 .right {
-  width: 90%;
+  width: 75%;
   text-align: center;
   background-color: deepskyblue;
 }

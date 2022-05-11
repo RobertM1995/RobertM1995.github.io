@@ -1,1 +1,48 @@
-ddd
+html, body {
+	height: 100%;
+	margin: 0;
+	background-color: black;
+}
+
+.header {
+	float: left;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+  background-color: black;
+  color: white;
+}
+
+.right {
+  width: 75%;
+  text-align: center;
+  background-color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	background-color: Black;
+	color: white;
+	position: fixed;
+}

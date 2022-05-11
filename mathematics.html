@@ -9,6 +9,18 @@
 		
 		<link rel ="stylesheet" href ="https://RobertM1995.github.io/stylesheet.css">
 		
+		<script>
+							function checkMath(result) {
+								var userMath = 
+								    document.getElementByID("answerOne").value;
+								var errors = 
+								    document.getElementsByClassName("error");
+								if(parseInt (userMath) == parseInt(result)) {
+									errors[0].innerHTML = "Well done, that is correct!";
+								} else {
+									errors[0].innerHTML = "That is incorrect. You entered " + userMath + ". The answer is " + result + ".";
+								}
+						</script>
 	</head>
 		
 	<body>
@@ -34,26 +46,11 @@
 				</div>
 	
 				<div class="column right">
-					<p>
-						<script>
-							function checkMath(result) {
-								var userMath = 
-								    document.getElementByID("answerOne").value;
-								var errors = 
-								    document.getElementsByClassName("error");
-								if(parseInt (userMath) == parseInt(result)) {
-									errors[0].innerHTML = "Well done, that is correct!";
-								} else {
-									errors[0].innerHTML = "That is incorrect. You entered " + userMath + ". The answer is " + result + ".";
-								}
-						</script>
-					</p>
 					
-					<p> 
-						<label for = "numberOne"> 4+1 = </label><input type="text" id="answerOne" value=" ">
-						<button id="submit" onclick="checkMath(4+1); ">Check your math!</button>
+					<label for = "numberOne"> 4+1 = </label><input type="text" id="answerOne" value=" ">
+					<button id="submit" onclick="checkMath(4+1); ">Check your math!</button>
 					<h1 class="error"></h1>
-					</p>
+
 				</div>
 			</div>
 		

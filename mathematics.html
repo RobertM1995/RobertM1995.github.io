@@ -9,18 +9,6 @@
 		
 		<link rel ="stylesheet" href ="https://RobertM1995.github.io/stylesheet.css">
 		
-		<script>
-							function checkMath(result) {
-								var userMath = 
-								    document.getElementByID("answerOne").value;
-								var errors = 
-								    document.getElementsByClassName("error");
-								if(parseInt (userMath) == parseInt(result)) {
-									errors[0].innerHTML = "Well done, that is correct!";
-								} else {
-									errors[0].innerHTML = "That is incorrect. You entered " + userMath + ". The answer is " + result + ".";
-								}
-						</script>
 	</head>
 		
 	<body>
@@ -45,13 +33,113 @@
 						<h3> <a href ="https://robertm1995.github.io/picture.html" target =" _blank "> Picture Quiz </a> </h3> 
 				</div>
 	
-				<div class="column right">
+				<div class="column right" style="text-align: left; color: white">
+				
+				<p> Question 1. What is 24 * 5? </p>
+				<input type="radio" name="question1" id="correct1" >120<br>
+				<input type="radio" name="question1">124<br>
+				<input type="radio" name="question1">140<br>
+				<input type="radio" name="question1">128<br>
+				
+				<p> Question 2. What is 110 / 5? </p>
+				<input type="radio" name="question2" >24<br>
+				<input type="radio" name="question2">19<br>
+				<input type="radio" name="question2">12<br>
+				<input type="radio" name="question2" id="correct2" >22<br>
+				
+				<p> Question 3. What is 100 + 18 - 74? </p>
+				<input type="radio" name="question3" id="correct3" >44<br>
+				<input type="radio" name="question3">36<br>
+				<input type="radio" name="question3">54<br>
+				<input type="radio" name="question3">68<br>
+				
+				<p> Question 4. What is 7(8*4)? </p>
+				<input type="radio" name="question4">302<br>
+				<input type="radio" name="question4">198<br>
+				<input type="radio" name="question4" id="correct4" >224<br>
+				<input type="radio" name="question4">316<br>
+				
+				<p> Question 5. What is -5 * -5? </p>
+				<input type="radio" name="question5">0<br>
+				<input type="radio" name="question5">-25<br>
+				<input type="radio" name="question5" id="correct5" >25<br>
+				<input type="radio" name="question5">10<br>
 					
-					<label for = "numberOne"> 4+1 = </label><input type="text" 
-										       id="answerOne" value=" ">
-					<button id="submit" onclick="checkMath(4+1); ">Check 
-						your math!</button>
-					<h1 class="error"></h1>
+				<p> Question 6. What is 200 * 8? </p>
+				<input type="radio" name="question1">2,000<br>
+				<input type="radio" name="question1" id="correct6" >1,600<br>
+				<input type="radio" name="question1">1,800<br>
+				<input type="radio" name="question1">1,400<br>
+				
+				<p> Question 7. What is 0 / 1? </p>
+				<input type="radio" name="question2" >1<br>
+				<input type="radio" name="question2" id="correct7" >0<br>
+				<input type="radio" name="question2">-1<br>
+				<input type="radio" name="question2">2<br>
+				
+				<p> Question 8. If 13 x Y = 169, what is Y? </p>
+				<input type="radio" name="question3">15<br>
+				<input type="radio" name="question3">11<br>
+				<input type="radio" name="question3">9<br>
+				<input type="radio" name="question3" id="correct8" >13<br>
+				
+				<p> Question 9. What is 15 * 15? </p>
+				<input type="radio" name="question4">305<br>
+				<input type="radio" name="question4">185<br>
+				<input type="radio" name="question4" id="correct9" >225<br>
+				<input type="radio" name="question4">240<br>
+				
+				<p> Question 10. What is 16 / 4? </p>
+				<input type="radio" name="question5">6<br>
+				<input type="radio" name="question5">8<br>
+				<input type="radio" name="question5" id="correct10" >4<br>
+				<input type="radio" name="question5">2<br>
+				
+				<input type="submit" name="submit" value="Submit" onclick="result()">
+				
+				<script type="text/javascript">
+				function result() {
+				
+				var score=0;
+				if(document.getElementById("correct1").checked) {
+					score++;
+				}
+				if(document.getElementById("correct2").checked) {
+					score++;
+				}
+				if(document.getElementById("correct3").checked) {
+					score++;
+				}
+				if(document.getElementById("correct4").checked) {
+					score++;
+				}
+				if(document.getElementById("correct5").checked) {
+					score++;
+				}
+					if(document.getElementById("correct6").checked) {
+					score++;
+				}
+				if(document.getElementById("correct7").checked) {
+					score++;
+				}
+				if(document.getElementById("correct8").checked) {
+					score++;
+				}
+				if(document.getElementById("correct9").checked) {
+					score++;
+				}
+				if(document.getElementById("correct10").checked) {
+					score++;
+				}
+				
+				document.write("Your score is: "+score);
+				
+				
+				}
+				
+				</script>
+					
+					
 
 				</div>
 			</div>

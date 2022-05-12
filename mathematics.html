@@ -132,8 +132,15 @@
 				if(document.getElementById("correct10").checked) {
 					score++;
 				}
+					
+				if(score > 5) {
 				
-				document.alert("Your score is: "+score);
+				window.alert("Great job, you scored "+score+" out of 10!")
+					     
+				} else {
+					     window.alert("You only scored "+score+" out of 10!")
+				}
+					     
 				
 				
 				}

@@ -33,15 +33,127 @@
 						<h3> <a href ="https://robertm1995.github.io/picturedarkmode.html" target =" _blank "> Picture Quiz </a> </h3> 
 				</div>
 	
-				<div class="column right">
-					<p>
-					General knowledge
-					</p>
+				<div class="column right" style="text-align: left; color: white">
+				
+				<p> Question 1. What is the smallest country in the world? </p>
+				<input type="radio" name="question1" id="correct1" >Vatican City<br>
+				<input type="radio" name="question1">San Marino<br>
+				<input type="radio" name="question1">Monaco<br>
+				<input type="radio" name="question1">Scotland<br>
+				
+				<p> Question 2. Which is the only vowel not used as the first letter in a US State? </p>
+				<input type="radio" name="question2" >A<br>
+				<input type="radio" name="question2" id="correct2" >E<br>
+				<input type="radio" name="question2">I<br>
+				<input type="radio" name="question2">O<br>
+				
+				<p> Question 3. In football, which team has won the Champions League (formerly the European Cup) the most? </p>
+				<input type="radio" name="question3">Liverpool<br>
+				<input type="radio" name="question3">Barcelona<br>
+				<input type="radio" name="question3" id="correct3">Real Madrid<br>
+				<input type="radio" name="question3">Inter Milan<br>
+				
+				<p> Question 4. In golf, where does the Masters take place? </p>
+				<input type="radio" name="question4">Pebble Beach<br>
+				<input type="radio" name="question4">TCP Saw Grass<br>
+				<input type="radio" name="question4" id="correct4" >Augusta National<br>
+				<input type="radio" name="question4">St Andrews<br>
+				
+				<p> Question 5. Which country is the origin of the cocktail Mojito? </p>
+				<input type="radio" name="question5" id="correct5">Cuba<br>
+				<input type="radio" name="question5">USA<br>
+				<input type="radio" name="question5"  >Italy<br>
+				<input type="radio" name="question5">UK<br>
+					
+				<p> Question 6. What does IPA stand for on alcoholic drinks? </p>
+				<input type="radio" name="question6">Irish Pale Ale<br>
+				<input type="radio" name="question6" id="correct6" >Indian Pale Ale<br>
+				<input type="radio" name="question6">International Pale Ale<br>
+				<input type="radio" name="question6">Intercontinental Pale Ale<br>
+				
+				<p> Question 7. In what year was the first episode of Coronation Street broadcasted on ITV? </p>
+				<input type="radio" name="question7" >1940<br>
+				<input type="radio" name="question7"  >1970<br>
+				<input type="radio" name="question7">1950<br>
+				<input type="radio" name="question7" id="correct7">1960<br>
+				
+				<p> Question 8. What is the capital of Westeros in Game of Thrones? </p>
+				<input type="radio" name="question8">High Garden<br>
+				<input type="radio" name="question8">Winterfell<br>
+				<input type="radio" name="question8">Dragon Stone<br>
+				<input type="radio" name="question8" id="correct8" >King's Landing<br>
+				
+				<p> Question 9. Which animal can be seen on the Porsche logo? </p>
+				<input type="radio" name="question9">Jaguar<br>
+				<input type="radio" name="question9">Lion<br>
+				<input type="radio" name="question9" id="correct9" >Horse<br>
+				<input type="radio" name="question9">Bull<br>
+				
+				<p> Question 10. How many parts (screws and bolts included) does the average car have? </p>
+				<input type="radio" name="question10" id="correct10">30,000<br>
+				<input type="radio" name="question10">40,000<br>
+				<input type="radio" name="question10">20,000<br>
+				<input type="radio" name="question10">50,000<br>
+					<br>
+				
+				<input type="submit" name="submit" value="Submit" onclick="result()"> <br>
+				
+				<script type="text/javascript">
+				function result() {
+				
+				var score=0;
+				if(document.getElementById("correct1").checked) {
+					score++;
+				}
+				if(document.getElementById("correct2").checked) {
+					score++;
+				}
+				if(document.getElementById("correct3").checked) {
+					score++;
+				}
+				if(document.getElementById("correct4").checked) {
+					score++;
+				}
+				if(document.getElementById("correct5").checked) {
+					score++;
+				}
+				if(document.getElementById("correct6").checked) {
+					score++;
+				}
+				if(document.getElementById("correct7").checked) {
+					score++;
+				}
+				if(document.getElementById("correct8").checked) {
+					score++;
+				}
+				if(document.getElementById("correct9").checked) {
+					score++;
+				}
+				if(document.getElementById("correct10").checked) {
+					score++;
+				}
+					
+				if(score > 5) {
+				
+				window.alert("Great job, you scored "+score+" out of 10!")
+					     
+				} else {
+				
+				window.alert("You only scored "+score+" out of 10!")
+				
+				}	     
+				
+				
+				}
+				
+				</script>
+					
+					
+
 				</div>
 			</div>
-		
-		<footer class ="footer"> 
+	</body>
+	<footer class ="footer"> 
 			<p> Created by Robert Monkhouse for his Web Technology Assessment. </p>
 		</footer>
-	</body>
 </html>
